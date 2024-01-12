@@ -1,0 +1,17 @@
+name: ragqa
+channels:
+  - conda-forge
+  - pytorch
+  - huggingface
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - transformers
+  - accelerate
+  - sentence-transformers
+  - langchain
+  - langchainhub
+  - chromadb
+  - pip:
+    - streamlit
